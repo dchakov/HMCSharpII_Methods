@@ -11,7 +11,7 @@ using System;
 
 class EnglishDigit
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Console.WriteLine("Please, enter number");
         int number = int.Parse(Console.ReadLine());

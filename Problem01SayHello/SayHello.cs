@@ -9,16 +9,16 @@ using System;
 
 class SayHello
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Please,enter your name");
-        string name = Console.ReadLine();
-
-        Sayhello(name);
+        string myName = null;
+        Printsayhello(myName);
     }
 
-    private static void Sayhello(string name)
+    static void Printsayhello(string name)
     {
-        Console.WriteLine("Hello, {0}",name); ;
+        Console.WriteLine("Please,enter your name");
+        name = Console.ReadLine();
+        Console.WriteLine("Hello, {0}!",name); ;
     }
 }
